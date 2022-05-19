@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terra Vegan</title>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+ <!-- Bootstrap CSS-->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+ <link rel="stylesheet" href="../estilos.css">
+</head>
+<body>
+ <!------ LOGO ------>
+ <div class="bg-black d-flex justify-content-center">
+  <a href="../index.html"><img src="../img/tvl.png" alt="TerraVegan" width="400"></a>
+ </div>
+ <!------ NAV ------>
+ <nav class="navbar navbar-expand-lg navbar-light beige">
+  <div class="container-fluid">
+   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+   </button>
+   <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
+    <ul class="navbar-nav">
+     <li class="nav-item"><a class="nav-link textdec" href="../index.html">home</a></li>
+     <li class="nav-item"><a class="nav-link textdec" href="../pages/carta.html">carta</a></li>
+     <li class="nav-item"><a class="nav-link textdec" href="../pages/galeria.html">galería</a></li>
+     <li class="nav-item"><a class="nav-link textdec" href="../pages/contacto.html">contacto</a></li>
+     <li class="nav-item"><a class="nav-link textdec" href="../pages/mapa.html">mapa</a></li>
+    </ul>
+   </div>
+  </div>
+ </nav><br><br>
+  <!------ MAIN ------>
+	<h2>Envianos un mensaje</h2>
+	<div class="d-flex justify-content-center black">
+	<form action="enviar.php" method="post" enctype="text/plain" id="form1">
+		<label for="Nombre" class="d-flex justify-content-center white">Nombre</label>
+		<input type="text" name="nombre" class="form-control" required><br>
+		<label for="Apellido" class="d-flex justify-content-center white">Apellido</label>
+		<input type="text" name="apellido" class="form-control" required><br>
+		<label for="E-mail" class="d-flex justify-content-center white">E-mail</label>
+		<input type="text" name="e-mail" class="form-control" required><br><br>
+		<label for="" class="from-label d-flex justify-content-center white">Preguntas y comentarios</label><br>
+		<textarea class="form-control" name="Preguntas y comentarios" id="" cols="30" rows="10" placeholder="escribe tu mensaje"></textarea><br>
+		<input class="form-control" type="submit">
+		<input class="form-control" type="reset">
+	</form>
+</div><br><br>
+<!------ FOOTER ------>
+	 <footer class="footer">
+    <nav class="pie">
+      <a><img src="../img/tvlm.png" alt="desarrollo web"></a>
+      <p>Come sano</p>
+      <p>Come vegano</p>
+      <p>Seguinos en nuestro instagram</p>
+      <a href="https://www.instagram.com/terravegan_burjassot/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+    </nav>
+  </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
