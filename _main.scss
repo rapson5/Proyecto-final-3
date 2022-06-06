@@ -1,0 +1,32 @@
+/* MAIN */
+ h1{
+      background: white;
+      margin-left: 0;
+      padding-left: 0;
+      text-align: center;
+      height: 80px;
+    }
+
+    h2{
+      text-align: center;
+      height: 80px;
+      padding-top: 35px;
+    }
+ /* IMG */
+ .imgmain{
+  height: 450px;
+  width: 400px;
+  box-shadow: 1px 10px 15px rgba(0, 0, 0, 0.50);
+  transition: all 500ms ease;
+  cursor: pointer;
+ }
+   .imgmain:hover{
+        transform: scale(1.2);
+ }
+ /* TILULO DE IMG */
+ .cardt{
+  font-family: Roboto, sans-serif;
+  background-color: beige;
+  letter-spacing: 3px;
+  border-radius: 10px;
+ }

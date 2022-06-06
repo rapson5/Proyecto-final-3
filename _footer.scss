@@ -1,0 +1,21 @@
+/* FOOTER */
+ .footer{
+      background: black;
+      display: flex;
+      justify-content: center;
+      color: white;
+      font-family: Montserrat, sans-serif;
+      width: 100%;
+      text-align: center;
+    }
+
+    .footer i{
+      color: white;
+    }
+    .footer i:hover{
+      color: orange;
+    }
+
+      .pie{
+        width: 300px;
+      }

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;800;900&family=Roboto:wght@100;300;500;900&display=swap');
+@import "reseteo";
+@import "logo";
+@import "nav";
+@import "main";
+@import "footer";
+@import "galery";
+@import "contactmap";
+@media screen and (max-width: 800px){
+    .container-img{
+      width: 95%;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px;
+      grid-template-rows: 200px;
+    }
+    .container-img .box-img:nth-child(1){
+      grid-column-start: span 1;
+    }
+}
+@media screen and (max-width: 500px){
+    .container-img{
+      width: 90%;
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .container-img .box-img img{
+      height: 200px;
+    }
+}
